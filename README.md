@@ -5,8 +5,8 @@
 1. test_add_new_book_add_one_books_successfully_added
 Добавляет 1 книгу с допустимым названием и проверяет, что после этого количество книг в списке равняется 1
 
-2. test_add_new_book_long_name_not_added
-Добавляет книгу с длинным названием и проверяет, что она не добавилась
+2. test_add_new_book_null_or_long_name_not_added
+Добавляет книгу с пустым или длинным названием и проверяет, что она не добавилась
 
 3. test_set_book_genre_existing_book_and_genre_successfully_added
 Добавляет жанр существующей в списке книге и проверяет, что жанр был успешно добавлен
